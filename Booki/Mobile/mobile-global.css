@@ -1,53 +1,10 @@
-  *{
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Raleway', sans-serif;
-}
-button {
-    font-family: 'Raleway', sans-serif !important;
-}
-/* ---------   HEADER --------- */
-
-/* ---------- --------------- */
-/* ---------- FIRST DIV --------------- */
-
-
-/* ---------- SECOND DIV --------------- */
-
-    /* -------------- -------------- -------------- */
-
-footer {
-    height: 300px;
-    background-color:  #F2F2F2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-
-footer h4{
-  
-    margin-left: 20px;
-    margin-top: 50px;
-}
-footer p{
-    margin-left: 20px;
-    margin-top: 15px;
-    font-weight: 100;
-
-}
-
-/* -------------------- IPAD IPAD IPAD --------------------------- */
-/* Portrait */
-
 /* -------------------- SMARTPHONE SMARTPHONE SMARTPHONE --------------------------- */
 /* Portrait */
 @media only screen and (min-width: 200px) and (max-width: 767px) {
     header{      
         flex-direction: column;  
         width: 100%; 
-        margin-left: 0%;
-  
+        margin-left: 0%;  
     }
     .logo img {
         width: 200px;

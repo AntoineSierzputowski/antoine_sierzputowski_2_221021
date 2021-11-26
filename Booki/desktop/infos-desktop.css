@@ -1,0 +1,132 @@
+.informations {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.informations h1 {
+    font-size: 19px;
+}
+.desc-p {
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.research-div {
+    background-color:  #F2F2F2;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    width: 350px;
+}
+.search-bar {
+    outline:none;
+font-size: 20px;
+}
+.search-bar[text] {
+    padding-left: 10px;
+}
+.div-img {
+    width: 15% ;
+    text-align: center;
+}
+.research-div img  {
+color: black;
+height: 20px;
+width: 20px;
+margin-top: 15px;}
+.research-div input {
+height: 50px;
+width: 55%;
+border:none;
+border: solid 0.2px #F2F2F2;
+
+}
+.research-div input::placeholder {
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 12px;
+    }
+    .research-icon {
+        display: none;
+    }
+    input[type=text] {
+        font-size:20px
+      }
+.research-div button {
+    height: 50px;
+    width: 30%;
+    border:none ; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:#0065FC ;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    }  
+    .research-div button:hover {
+        cursor: pointer;
+    }
+    /* .filtres-mobile {
+        display: none;
+    }  */
+.filtres {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+ 
+
+.filtres p {
+    font-size: 15px;
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+/* .par-button-filtres {
+    margin-left: 30px;
+} */
+.btn {
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 20px;
+    color: black; 
+    font-size: 16px; 
+    cursor: pointer; 
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+  }
+  .icon-button {
+    background-color: #DEEBFF;
+    height: 40px;
+    width: 40px;
+    margin-top: -11px;
+    margin-left: -11px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .icon-button i {
+      margin-top: 12px;
+      color: #0065FC;
+  }
+
+.filtres i {
+    z-index: 0;
+}
+
+.info-alert {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(80, 80, 80);
+}
+.info-alert i{
+    height: 18px;
+    margin-right: 5px;
+    margin-top: 1px;
+    color: #0065FC;
+}
