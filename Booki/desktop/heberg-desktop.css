@@ -1,3 +1,5 @@
+
+
 .hebergements {
     width: 90%;
     margin-left:5% ;
@@ -28,7 +30,7 @@
     
     }
     
-    .card-heberg {
+    .card-global {
         display: flex;
         flex-direction: column;
         width: 29%;
@@ -48,7 +50,7 @@
        color: #0065FC;
     }
 
-    .card-heberg:hover {
+    .card-global:hover {
         transform: scale(1.05);}
     .img-heberg {
         border-top-right-radius: 20px;
@@ -62,11 +64,11 @@
         margin-left: 3px;
         padding-bottom: 5px;
     }
-    .card-heberg h3 {
+    .card-global h3 {
         font-size: 15px;
         padding-top: 7px; 
     }
-    .card-heberg p {
+    .card-global p {
         font-size: 12px;
         padding-top: 7px;
         padding-bottom: 7px;
@@ -138,7 +140,7 @@
     .desc-card-pop {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+     justify-content: space-between; 
     padding-left: 10px;
     }
     .desc-card-pop h3 {
@@ -157,3 +159,4 @@
         width: 50px;
         padding-bottom: 5px;
         }
+    
