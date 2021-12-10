@@ -2,6 +2,8 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Raleway', sans-serif;
+    overflow-x:hidden;
+
 }
 button {
     font-family: 'Raleway', sans-serif !important;
@@ -383,7 +385,7 @@ margin-top: 80px;    }
     
     
 } */
-@media only screen and (min-width: 200px) and (max-width: 767px) {
+ /* @media only screen and (min-width: 200px) and (max-width: 767px) {
     header{      
         flex-direction: column;  
         width: 100%; 
@@ -491,9 +493,7 @@ width: 50%;
     height: 55px;
     width: 55px;
 }
-/* .div-img {
-    width: 10%;
-} */
+
 .research-div input {
     height: 80px;
     width: 80%;
@@ -720,7 +720,4 @@ margin-top: 80px;    }
         margin-bottom: 80px;
     }
     
-    
-    
-    
-}
+} */
