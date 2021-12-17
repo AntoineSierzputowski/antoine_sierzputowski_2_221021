@@ -67,12 +67,15 @@
     .card-global h3 {
         font-size: 15px;
         padding-top: 7px; 
+        margin-left: 5px;
     }
     .card-global p {
         font-size: 12px;
         padding-top: 7px;
         padding-bottom: 7px;
         font-weight: 100;
+        margin-left: 5px;
+
         
     }
     
